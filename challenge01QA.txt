@@ -27,23 +27,24 @@ echo "export TESTING_MAKERS=working" >> ~/.bash_profile
 echo $TESTING_MAKERS
 
 08) Output the count of the variables that begin with T to a new file my/public/files/t-vars.count, e.g. "Overall count: 5" (hint: you'll need to use 'command substitution' in bash)
-
-
+env | grep ^T | wc -l > ./my/public/files/t-vars.count
 
 09) Change the permissions of the my/private/files/t-vars.env to make sure that only the owner can read and write the file
-
+chmod go-rw ./my/public/files/t-vars.count
 
 10) Change the permissions of the my/private/files directory to make sure that only the owner can change into it
-
+chmod go-x my/private/files
 
 11) Give read and write permissions to all users on my/public/files/t-vars.count
-
+chmod ugo+rw ./my/public/files/t-vars.count
 
 12) Create another file my/public/files/text-files-count.txt and output the number of text files in your home directory (recursively) into that file
-
+find ~ -name "*.txt" | wc -l > my/public/files/text-files-count.txt
 
 13) Create another file my/private/files/first-three-env.txt and output the first three env variables from a list of all of them sorted alphabetically
-
+env | sort | head -3 > my/private/files/first-three-env.txt
 
 14) Create another file my/private/files/commands.txt and output the contents of the history command to that file
+history > my/private/files/commands.txt
 
+end
