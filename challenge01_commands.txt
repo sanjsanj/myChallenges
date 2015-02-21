@@ -1,0 +1,500 @@
+   70  grep "old file" *
+   71  man grep
+   72  grep -i "this is" *.txt
+   73  apropos searc
+   74  apropos search
+   75  env
+   76  env | grep action
+   77  echo $USER
+   78  echo $PWD
+   79  pwd
+   80  echo $PATH
+   81  export TESTING="bada bada bing"
+   82  echo $TESTING
+   83  unset TESTING
+   84  echo $TESTING
+   85  env | grep TESTING
+   86  man xargs
+   87  ls
+   88  w
+   89  echo $NEWDAY
+   90  echo $NEWDAY
+   91  echo $NEWDAY
+   92  echo $NEWDAY
+   93  ls
+   94  cd SomeDir/
+   95  ls
+   96  cat test > test.txt
+   97  cat test > "test.txt"
+   98  man cat
+   99  cat "test" > test.txt
+  100  echo test > test.txt
+  101  ls
+  102  cat test.txt 
+  103  echo $PATH
+  104  echo $SEASON
+  105  echo $DAY
+  106  export NEWDAY=Thursday
+  107  echo $NEWDAY 
+  108  echo "export NEWDAY=Thursday" >> ~/.bash_profile 
+  109  echo $NEWDAY 
+  110  cat .bash_profile
+  111  cat ".bash_profile"
+  112  cat ~/.bash_profile 
+  113  ps
+  114  ps x
+  115  ps | wc -l
+  116  ps
+  117  ps x -print
+  118  ps x | wc -l
+  119  ps x
+  120  ps x | grep bash | wc -l
+  121  ps x | grep bash
+  122  cd
+  123  git --version
+  124  git --version
+  125  git config --global user.name "sanjsanj"
+  126  git config --global user.email "sanjsanj@hotmail.com"
+  127  git config --global core.autocrlf input
+  128  git config --global core.safecrlf true
+  129  ls -lA
+  130  ls -l
+  131  mkdir gitDir
+  132  cd gitDir/
+  133  ls
+  134  ls -la
+  135  echo "Git is awesome" > gitText
+  136  ls
+  137  git init
+  138  git add gitText
+  139  git commit -m "First commit"
+  140  git status
+  141  echo "This text was changed.  " >> gitText
+  142  git status
+  143  git add gitText 
+  144  git status
+  145  git commit -m "Updated gitText"
+  146  git status
+  147  git log
+  148  rm gitText 
+  149  touch moreGitText
+  150  git status
+  151  git add moreGitText 
+  152  git status
+  153  git rm gitText
+  154  git status
+  155  git commit -m "deleted gitText"
+  156  git status
+  157  git info
+  158  git log
+  159  git checkout 1408612e
+  160  ls
+  161  git checkout master
+  162  ls -al ~/.ssh
+  163  cat id_rsa.pub
+  164  ls
+  165  ls -la
+  166  cd
+  167  ls -la
+  168  cd .ssh/
+  169  ls -la
+  170  cat id_rsa.pub
+  171  ssh -T git@github.com
+  172  git remote -v
+  173  cd
+  174  git remote -v
+  175  ls
+  176  cd gitDir/
+  177  ls
+  178  git remote -v
+  179  git remote add origin git@github.com:sanjsanj/playing-with-git.git
+  180  git remote -v
+  181  git push -u origin master
+  182  git push
+  183  git pull origin master
+  184  git log
+  185  git status
+  186  git pull
+  187  git log
+  188  mkdir ~/Projects
+  189  cd ~/Projects/
+  190  ls
+  191  mkdir ruby-practice
+  192  cd ruby-practice/
+  193  git init
+  194  echo "Introductory Ruby exercises" > README
+  195  git add README 
+  196  git commit -m "Initial commit"
+  197  cd ..
+  198  mkdir CLI-practice
+  199  cd CLI-practice/
+  200  git init
+  201  echo "Command Line Interface practice" > README
+  202  git add README 
+  203  git commit -m "Initial commit"
+  204  cd ..
+  205  ls -la
+  206  git clone https://github.com/JoshCheek/ruby-kickstart.git
+  207  ls
+  208  git status
+  209  cd ru
+  210  cd ruby-practice/
+  211  git status
+  212  ls -la
+  213  git info
+  214  git push
+  215  git push origin master
+  216  ls
+  217  git push -u origin master
+  218  git remote -v
+  219  git remote add https://github.com/sanjsanj/playing-with-git.git
+  220  git remote -v
+  221  ls -la
+  222  git remote add origin git@github.com:sanjsanj/playing-with-git.git
+  223  git remote -v
+  224  git push
+  225  git status
+  226  git add README 
+  227  git status
+  228  git commit -m "Added readme"
+  229  ls
+  230  echo "Readme file" >> README 
+  231  cat R
+  232  cat README 
+  233  git commit -m "Updated readme"
+  234  git add README 
+  235  git commit -m "Updated readme"
+  236  git push
+  237  git push -u origin master
+  238  cd..
+  239  cd ..
+  240  ls
+  241  cd 
+  242  ls
+  243  cd gitDir/
+  244  ls
+  245  touch newGitText
+  246  git status
+  247  git add newGitText 
+  248  git status
+  249  git commit -m "Added new file"
+  250  git status
+  251  git push
+  252  git status
+  253  cd 
+  254  cd Projects/
+  255  ls
+  256  cd ruby-pra
+  257  cd ruby-practice/
+  258  ls
+  259  git init
+  260  git status
+  261  git add README 
+  262  git status
+  263  git commit -m "Add readme"
+  264  touch test
+  265  ls
+  266  git add test
+  267  git status
+  268  git commit -m "testing"
+  269  git status
+  270  git push
+  271  git push origin master
+  272  git remote add origin git@github.com:sanjsanj/ruby-practice.git
+  273  git remote -help
+  274  git remote remove origin
+  275  git remote -v
+  276  git remote add origin git@github.com:sanjsanj/ruby-practice.git
+  277  git remote -v
+  278  git push origin master
+  279  git status
+  280  cd..
+  281  cd ..
+  282  ls
+  283  mkdir gitImmersion
+  284  cd gitImmersion/
+  285  ls
+  286  curl http://gitimmersion.com/git_tutorial.zip > git_tutorial.zip
+  287  curl https://gitimmersion.com/git_tutorial.zip > git_tutorial.zip
+  288  ls
+  289  cd Projects/
+  290  ls
+  291  cd gitImmersion/
+  292  ls
+  293  ls -la
+  294  rm git_tutorial.zip 
+  295  ls -la
+  296  curl http://gitimmersion.com/git_tutorial.zip > git_tutorial.zip
+  297  ls -la
+  298  rm git_tutorial.zip 
+  299  ls -la
+  300  curl https://gitimmersion.com/git_tutorial.zip > git_tutorial.zip
+  301  cd Projects/gitImmersion/
+  302  ls
+  303  rm -i *
+  304  ls
+  305  curl http://s000.tinyupload.com/index.php?file_id=00966753506183848152 > tut.zip
+  306  ls
+  307  cat tut.zip 
+  308  rm *
+  309  ls
+  310  curl http://s000.tinyupload.com/download.php?file_id=00966753506183848152&t=0096675350618384815244275 > tut.zip
+  311  ls
+  312  ls -la
+  313  rm *
+  314  ls -la
+  315  mkdir -p /a/b/c
+  316  mkdir -P /a/b/c
+  317  mkdir -p ./a/b/c
+  318  ls
+  319  ls -rla
+  320  ls -r a
+  321  ls -R a
+  322  rm -r a
+  323  ls
+  324  curl http://s000.tinyupload.com/download.php?file_id=00966753506183848152&t=0096675350618384815215099 > tut.zip
+  325  ls
+  326  ls -la
+  327  rm *
+  328  curl "http://s000.tinyupload.com/download.php?file_id=00966753506183848152&t=0096675350618384815215099" > tut.zip
+  329  ls
+  330  ls -la
+  331  rm *
+  332  curl https://s000.tinyupload.com/download.php?file_id=00966753506183848152&t=0096675350618384815215099 > tut.zip
+  333  ls
+  334  ls -la
+  335  rm *
+  336  cd ..
+  337  ls
+  338  cd ..
+  339  ls
+  340  cd gitDir/
+  341  ls
+  342  git pull
+  343  git remote -v
+  344  git pull
+  345  ls -la
+  346  mv git_tutorial.zip ~/Projects/gitImmersion/tut.zip
+  347  ls
+  348  git satus
+  349  git status
+  350  git rm git_tutorial.zip
+  351  git status
+  352  git commit -m "Removed gittuts.zip"
+  353  git status
+  354  git push
+  355  git status
+  356  cd
+  357  cd Projects/gitImmersion/
+  358  ls
+  359  ls -la
+  360  unzip tut.zip 
+  361  ls
+  362  cd git_tutorial/
+  363  ls
+  364  cd ../..
+  365  ls
+  366  ls -R CLI-practice/
+  367  rm -p CLI-practice/
+  368  rm -r CLI-practice/
+  369  ls
+  370  ls -la
+  371  mkdir command-line
+  372  cd command-line/
+  373  git init
+  374  echo "This is a list of some of the most useful shell commands" > README
+  375  cat README 
+  376  git add README 
+  377  git status
+  378  git commit README
+  379  git status
+  380  ls
+  381  git commit README -m "First commit"
+  382  git status
+  383  git add README 
+  384  git status
+  385  ls
+  386  cd Projects/command-line/
+  387  ls
+  388  git status
+  389  git add README
+  390  git status
+  391  git remote -v
+  392  git init
+  393  git status
+  394  ls
+  395  git add RADME
+  396  git add README
+  397  git status
+  398  cat README 
+  399  rm *
+  400  git status
+  401  cd ..
+  402  rm -r command-line/
+  403  ls -la
+  404  mkdir command-line
+  405  ls
+  406  cd command-line/
+  407  cat > README
+  408  ls
+  409  cat README 
+  410  git init
+  411  git status
+  412  git add README
+  413  git status
+  414  git commit -m "First commit"
+  415  git remote add origin git@github.com:sanjsanj/command-line.git
+  416  git status
+  417  git push -u origin master
+  418  touch mv
+  419  git add mv
+  420  git status
+  421  git commit -m "Added mv"
+  422  git push
+  423  git pull origin master
+  424  ls
+  425  cat mv
+  426  ls
+  427  cd ..
+  428  ls
+  429  cd gitImmersion/
+  430  ls
+  431  cd git_tutorial/
+  432  ls
+  433  cd html/
+  434  ls
+  435  ls -la | grep "*.png" | wc -l
+  436  ls -la | grep *.png | wc -l
+  437  ls | grep *.png | wc -l
+  438  ls -l | grep *.png | wc -l
+  439  ls -l | grep png | wc -l
+  440  ls -l ./ | grep png | wc -l
+  441  ls | grep png | wc -l
+  442  ls | grep png
+  443  ls | grep js | wc -l
+  444  find . -name *.js
+  445  find *.js
+  446  ls | grep js
+  447  echo TESTING_MAKERS
+  448  ls
+  449  mkdir temp
+  450  cd temp/
+  451  gem install unixoid-challenge
+  452  ls
+  453  ls -la
+  454  rmv -v
+  455  unixoid-challenge
+  456  cd
+  457  cd Projects/
+  458  ls
+  459  cd command-line/
+  460  ls
+  461  git pull
+  462  ls
+  463  cat cp
+  464  cat mv
+  465  cat README 
+  466  cd ~/temp/
+  467  ls
+  468  unixoid-challenge
+  469  unixoid-challenge
+  470  mkdir -p my/private/files
+  471  ls
+  472  ls -r my
+  473  ls -R my
+  474  unixoid-challenge
+  475  mkdir -p my/public/files
+  476  ls
+  477  ls -R my
+  478  man touch
+  479  touch /my/private/files/t-vars.env
+  480  touch ./my/private/files/t-vars.env
+  481  ls -R my
+  482  cat > ./my/private/files/t-vars.env 
+  483  echo "export TESTING_MAKERS=working" >> ~/.bash_profile
+  484  echo $TESTING_MAKERS
+  485  unixoid-challenge
+  486  ls
+  487  cd temp/
+  488  echo $ENV
+  489  echo $TESTING_MAKERS
+  490  echo $TESTING_MAKERS
+  491  cd temp/
+  492  ls
+  493  cat unixoid_results.txt 
+  494  env
+  495  env | grep ^T
+  496  env | grep ^T >> ./my/private/files/t-vars.env 
+  497  cat ./my/private/files/t-vars.env 
+  498  cat unixoid_results.txt 
+  499  ls
+  500  cat logfile.log 
+  501  cd temp/
+  502  unixoid-challenge
+  503  env | grep ^T | wc -l > ./my/public/files/t-vars.count
+  504  cd my/public/files/
+  505  ls
+  506  ls -la
+  507  cd ..
+  508  ls -la
+  509  cd files/
+  510  ls -la
+  511  chmod go-rw t-vars.count 
+  512  ls -la
+  513  cd ..
+  514  ls -la
+  515  chmod go-r files/
+  516  ls -la
+  517  cd files/
+  518  ls -la
+  519  chmod all+rw t-vars.count 
+  520  chmod ugo+rw t-vars.count 
+  521  ls -la
+  522  unixoid-challenge
+  523  cd ~/temp/
+  524  unixoid-challenge
+  525  env | grep ^T | wc -l > ./my/public/files/t-vars.count
+  526  unixoid-challenge
+  527  Overall count: "env | grep ^T | wc -l" > ./my/public/files/t-vars.count
+  528  echo Overall count: "env | grep ^T | wc -l" > ./my/public/files/t-vars.count
+  529  cat my/public/files/t-vars.count 
+  530  echo Overall count: "'env | grep ^T | wc -l'" > ./my/public/files/t-vars.count
+  531  cat my/public/files/t-vars.count 
+  532  echo Overall count: "(env | grep ^T | wc -l)" > ./my/public/files/t-vars.count
+  533  cat my/public/files/t-vars.count 
+  534  echo Overall count: $(env | grep ^T | wc -l) > ./my/public/files/t-vars.count
+  535  cat my/public/files/t-vars.count 
+  536  unixoid-challenge
+  537  ls -lar my/private/files/t-vars.env 
+  538  chmod go-rw my/private/files/t-vars.env 
+  539  unixoid-challenge
+  540  ls -lar my/private/
+  541  chmod go-x my/private/files
+  542  unixoid-challenge
+  543  find ~ -name "*.txt"
+  544  find ~ -name "*.txt" | wc -l > my/public/files/text-files-count.txt
+  545  sudo find ~ -name "*.txt" | wc -l > my/public/files/text-files-count.txt
+  546  ls -lar
+  547  ls -lar .my/
+  548  ls -lar my/
+  549  ls -laR my/
+  550  find ~ -name "*.txt" | wc -l > .my/public/files/text-files-count.txt
+  551  find . -name "*.txt" | wc -l > .my/public/files/text-files-count.txt
+  552  find . -name "*.txt" | wc -l > my/public/files/text-files-count.txt
+  553  unixoid-challenge 
+  554  find ~ -name "*.txt" | wc -l > my/public/files/text-files-count.txt
+  555  find ~ -name "*.txt"
+  556  find ~ -name "*.txt" | wc -l
+  557  chmod u+rwx ~/SomeDir/Challenge_1/No_Change
+  558  find ~ -name "*.txt" | wc -l
+  559  find ~ -name "*.txt" | wc -l > my/public/files/text-files-count.txt
+  560  unixoid-challenge 
+  561  env sort
+  562  env -sort
+  563  man env
+  564  env
+  565  env | sort
+  566  env | sort | head -3 > my/private/files/first-three-env.txt
+  567  unixoid-challenge 
+  568  history
+  569  history > my/private/files/commands.txt
