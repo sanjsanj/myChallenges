@@ -1,0 +1,43 @@
+Challenge 01 Question and Answers
+
+01) Using one command, create a directory structure "my/private/files"
+
+
+02) Using one command, create a directory structure "my/public/files"
+
+
+03) Create an empty file 't-vars.env' in my/private/files
+
+
+04) Using command-line only add the line "List of env vars that begin with T" to the file, make sure it ends with a newline
+
+
+05) List all env variables that begin with "T" (hint: you'll need a regex that includes the marker of the start of the line) and append them to the end of the file
+
+
+06) Export a new variable TESTING_MAKERS=working in such a way that it is still available when you open a new shell
+
+
+07) Open a new terminal window, check that a new variable is available
+
+
+08) Output the count of the variables that begin with T to a new file my/public/files/t-vars.count, e.g. "Overall count: 5" (hint: you'll need to use 'command substitution' in bash)
+
+
+09) Change the permissions of the my/private/files/t-vars.env to make sure that only the owner can read and write the file
+
+
+10) Change the permissions of the my/private/files directory to make sure that only the owner can change into it
+
+
+11) Give read and write permissions to all users on my/public/files/t-vars.count
+
+
+12) Create another file my/public/files/text-files-count.txt and output the number of text files in your home directory (recursively) into that file
+
+
+13) Create another file my/private/files/first-three-env.txt and output the first three env variables from a list of all of them sorted alphabetically
+
+
+14) Create another file my/private/files/commands.txt and output the contents of the history command to that file
+
