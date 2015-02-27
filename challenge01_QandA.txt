@@ -27,7 +27,7 @@ echo "export TESTING_MAKERS=working" >> ~/.bash_profile
 echo $TESTING_MAKERS
 
 08) Output the count of the variables that begin with T to a new file my/public/files/t-vars.count, e.g. "Overall count: 5" (hint: you'll need to use 'command substitution' in bash)
-env | grep ^T | wc -l > ./my/public/files/t-vars.count
+echo Overall count: $(env | grep ^T | wc -l) > ./my/public/files/t-vars.count
 
 09) Change the permissions of the my/private/files/t-vars.env to make sure that only the owner can read and write the file
 chmod go-rw ./my/public/files/t-vars.count
