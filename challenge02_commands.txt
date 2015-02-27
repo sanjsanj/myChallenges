@@ -1,0 +1,76 @@
+  539  cd
+  540  cd Projects/
+  541  ls
+  542  git clone git@github.com:sanjsanj/Octocat.git
+  543  ls
+  544  cd Octocat/
+  545  ls
+  546  touch Q_01_clone.txt
+  547  git status
+  548  git add .
+  549  git commit -m "Create Q_01_clone.txt"
+  550  git push -u origin master
+  551  touch Q_02_upstream.txt
+  552  git status
+  553  git add .
+  554  git commit -m "Create Q_02_upstream.txt"
+  555  git push
+  556  touch Q_03_branch.txt
+  557  git status
+  558  git add .
+  559  git commit -m "Create Q_03_branch.txt"
+  560  git push
+  561  git hist
+  562  git branch answers
+  563  git status
+  564  git hist
+  565  git log
+  566  git hist
+  567  git checkout answers
+  568  git hist
+  569  git status
+  570  git status
+  571  git add .
+  572  git commit -m "Answer Q_01_clone.txt"
+  573  git push
+  574  git push -u origin master
+  575  git push -u origin answers
+  576  git status
+  577  git add .
+  578  git commit -m "Answer Q_02_upstream.txt"
+  579  git push
+  580  git status
+  581  git add .
+  582  git commit -m "Answer Q_03_branch.txt"
+  583  git push
+  584  ls
+  585  cd ..
+  586  git clone git@github.com:sanjsanj/the-cat.git
+  587  cd the-cat/
+  588  ls
+  589  git remote -v
+  590  git remote add upstream git@github.com:makersacademy/the-cat.git
+  591  git remote -v
+  592  ls
+  593  mkdir India
+  594  cd India/
+  595  ls
+  596  touch capital_of_india.txt
+  597  mv capital_of_india.txt New_Delhi.txt
+  598  git status
+  599  cd ..
+  600  git status
+  601  git status
+  602  git add .
+  603  git commit -m "Add India to list of countries"
+  604  git push
+  605  cd
+  606  git status
+
+  659  cd
+  660  cd Projects/myChallenges/
+  661  ls
+  662  history
+  663  ls
+  664  touch challenge02_commands.txt
+  665  history > challenge02_commands.txt 
